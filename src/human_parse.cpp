@@ -205,7 +205,7 @@ human_parse::human_parse(){
   salutations.insert("lady");
   salutations.insert("lord");
   salutations.insert("reverend");
-  salutations.insert("very reverend");
+  salutations.insert("very_reverend");
   salutations.insert("fray");
   
   // Suffixes
