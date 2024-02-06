@@ -204,6 +204,9 @@ human_parse::human_parse(){
   salutations.insert("dame");
   salutations.insert("lady");
   salutations.insert("lord");
+  salutations.insert("reverend");
+  salutations.insert("very reverend");
+  salutation.insert("fray");
   
   // Suffixes
   suffixes.insert("i");
@@ -223,6 +226,22 @@ human_parse::human_parse(){
   suffixes.insert("dmd");
   suffixes.insert("cme");
   suffixes.insert("esq");
+  suffixes.insert("o.f.m.cap");
+  suffixes.insert("o.p.");
+  suffixes.insert("f.n.");
+  suffixes.insert("c.m.");
+  suffixes.insert("o.s.b.");
+  suffixes.insert("i.v.e.");
+  suffixes.insert("c.ss.r");
+  suffixes.insert("s.d.d.");
+  suffixes.insert("m.n.m.");
+  suffixes.insert("c.s.");
+  suffixes.insert("c.j.m.");
+  suffixes.insert("s.chr.");
+  suffixes.insert("l.c.");
+  suffixes.insert("o.c.d.");
+  suffixes.insert("j.c.l.");
+  suffixes.insert("v.f.");
   
   // Compounds
   compounds.insert("vere");
